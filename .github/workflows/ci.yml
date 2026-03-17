@@ -45,7 +45,7 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
-          trivy:
+        
     name: Trivy Scan
     runs-on: ubuntu-latest
 
